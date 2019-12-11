@@ -16,6 +16,9 @@ Route::get('think', function () {
 
 Route::get('hello/:name', 'index/hello');
 
+// 因为修改了app.php的配置为强制匹配路由，所以首页也要设置路由规则；
+Route::get('/', 'index/index');
+
 return [
 
 ];
