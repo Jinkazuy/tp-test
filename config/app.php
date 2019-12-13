@@ -141,6 +141,8 @@ return [
     'route_cache_option'     => [],
 
     // 默认跳转页面对应的模板文件
+    // 这里可以指向其他的自己写的页面，如果是自己写的文件的话，会从public作为根来找，比如'success.html'其实是public/success.html
+    // 更多的看 https://www.kancloud.cn/manual/thinkphp5_1/353981
     'dispatch_success_tmpl'  => Env::get('think_path') . 'tpl/dispatch_jump.tpl',
     'dispatch_error_tmpl'    => Env::get('think_path') . 'tpl/dispatch_jump.tpl',
 

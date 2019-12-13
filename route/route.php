@@ -26,8 +26,10 @@ Route::get('hello/:name', 'index/hello');
 // 那么，这里的index/index其实指的是 根/application/下的index下的controller下的index.php文件中的index类的index方法；
 Route::get('/', 'index/index');
 
-Route::get('/d', 'mcvName/index');
+Route::get('/a', 'index/demo/aaa');
+Route::get('/b', 'index/demo/bbb')->name('abc');
 
+Route::get('/demoaa', 'demo/demo/aa');
 
 
 // =================================
