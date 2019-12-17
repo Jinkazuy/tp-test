@@ -24,7 +24,7 @@ return [
     'app_debug'              => false,
     // ---- 应用Trace ，也就是当前TP框架运行的内容，在网页右下角就能看到了。类似微信的调试工具、VUE的调试工具；
     // ---- 上线的时候一定要关闭！上线的时候一定要关闭！上线的时候一定要关闭！
-    'app_trace'              => false,
+    'app_trace'              => true,
     // 是否支持多模块
     'app_multi_module'       => true,
     // 入口自动绑定模块

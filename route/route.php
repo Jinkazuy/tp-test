@@ -27,9 +27,6 @@ Route::get('hello/:name', 'index/hello');
 Route::get('/', 'index/index');
 
 Route::get('/a', 'index/demo/aaa');
-Route::get('/b', 'index/demo/bbb')->name('abc');
-
-Route::get('/demoaa', 'demo/demo/aa');
 
 
 // =================================
