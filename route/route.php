@@ -11,7 +11,7 @@
 
 // 这个文件中设置路由没有代码提示，那么加上use think\facade\Route; 即可
 // 引入route门面
-// 这样就有代码提示了
+// 这样就有代码提示了 
 use think\facade\Route;
 
 // 这个return 的话，那么访问 www.xx.com/think 这个地址，就会返回 'hello,ThinkPHP5!' 字符内容；
